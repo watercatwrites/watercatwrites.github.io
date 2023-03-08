@@ -5,6 +5,7 @@ color:
 background-color: black ;
 align-items: center;
 text-align: center;
+}
 <head>
 <title>
 </head> 
