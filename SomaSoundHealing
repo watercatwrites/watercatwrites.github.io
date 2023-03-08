@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+body {
+color: 
+background-color: black ;
+align-items: center;
+text-align: center;
 <head>
 <title>
 </head> 
@@ -7,7 +12,7 @@
 
 <h1> Every Witch needs a healing hand </h1>
 <p> My soul feels home at Spirit and Soma Healing Arts with Kylie Jo Winkles </p>
-img= 
+<img src="blogpic3.jpeg" width=400px height=200px </img>
 <p> I had the pleasure of meeting Kylie when she came into Tribal Trends, the metaphysical shop that I work at. I figured out she is a sound healer when she purchased a singing bowl and showed me how it worked. Kylie is a professional massage therapist, sound healer, and reiki master in Hendersonville NC. She’s our neighbor on Main Street, just two doors down from us! When we first met we talked like we knew each other.
 
 <p>	I had my first professional massage from Kylie on February 23rd. I told her I was struggling with lots of pain in my body and needed inner clearings for my next life chapter. I was born with CMT and my life revolves around pain management. I have pain in my joints, muscles, nerves, mostly in my hips, legs, and shoulders. 
