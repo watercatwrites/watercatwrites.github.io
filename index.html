@@ -1,19 +1,89 @@
+<!DOCTYPE HTML>
 <html>
-  <style>
-    body {
-      color: white;
-      background-color: black;
-      align-items: center;
-      text-align: center;
-    }
-  </style>
-  <body>
-    <img src="watercatwrites3.png" width=800px height=200px aligh="center"> </img>
-  <p> </p>
-    <img src="blogpic1.jpeg" width=500px height=700px align="left"> </img>
-  <p text-align:"right"> Explore the medicine that Western NC has to offer<p> 
-  <img src="blogpics2.jpeg" width=400px height=400px align="right"> </img>
-  <a href="/blogposts/PayingtoPark.html">Paying to Park</a>
-  <p text-align:"right"> Check out my latest blog post about how the new parking laws in Hendersonville are affecting small business owners, employees, and the quaint charm that Hendersonville was built upon. <p> 
-</body>
+	<head>
+<style>
+body {
+	background-color: #E2CFEA;
+}
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #A06CD5;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	border-radius: 10px;
+}
+.sidebar a {
+	text-align: center;
+	display: block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+}
+.sidebar a.active {
+	background-color: #6247AA;
+	color: white;
+}
+.sidebar a:hover:not(.active) {
+	background-color: #6247AA;
+	color: white;
+}
+div.content {
+	margin-left: 200px;
+	overflow: auto;
+	padding: 1px 16px;
+	height: 1000px;
+}
+.blogpost-snippet {
+	background-color: #BDA5D5;
+	width: 1000px;
+	height: 150px;
+	padding: 30px;
+	margin: 10px;
+	border: 5px solid #102B3F;
+	border-radius: 10px;
+}
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {float: left;}
+	div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
+</style>
+	<title>Watercat Writes | Highlighting Local Creativity</title>
+	</head>
+	<body>
+		<div class="sidebar">
+			<br>
+			<img src="https://i.imgur.com/wc1kYqM.jpeg" alt="rachel" style="height: 140px;width:140px;border-radius: 50%;padding: 5px;display:block;margin-right:auto;margin-left:auto;">
+			<br>
+			<a class="active" href="#home">BLOG</a>
+			<a href="#">HAPPENINGS</a>
+		</div>
+		<!-- page content -->
+		<div class="content">
+			<div class="blogpost-snippet">
+				<h3>Food Art & Brew Festivities</h3>
+				<p>How local artists, craft brews, and catfish made for a fantastic night.</p>
+			</div>
+			<br>
+			<div class="blogpost-snippet">
+				<p>test 1</p>
+			</div>
+		</div>
+	</body>
+	<footer>
+    <!-- This site was hand-crafted by Auberon. -->
+	</footer>
 </html>
